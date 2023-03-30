@@ -1,0 +1,33 @@
+.site{
+    background-color: #E5E5E5;
+}
+.header{
+    height: 92px;
+    width: 414px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #CF2B2B;
+}
+.footer{
+    height: 92px;
+    width: 414px;
+    left: 0px;
+    top: 934px;
+    border-radius: 0px;
+    background-color:#FFFFFF;
+    ;
+
+}
+.caixa1{
+    background-color: #ffff00;
+}
+.texto1{
+    font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    text-align: left;
+
+}
