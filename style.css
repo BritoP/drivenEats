@@ -92,6 +92,9 @@
     display: flex;
     overflow-x: auto;
 }
+.pratos::-webkit-scrollbar {
+    display: none;
+  }
 .prato1{
     width: 172px;
     height: 216px;
@@ -130,6 +133,7 @@
 .descricaoPrato{
     height: 23px;
     width: 139px;
+    margin-top: 8px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -146,12 +150,12 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-
     color: #A6A6A6;
 }
 .precoPrato{
     width: 66px;
     height: 19px;
+    margin-top: 5px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -159,3 +163,92 @@
     line-height: 19px;
     color: #000000;
 }
+.caixa2{
+    margin-top: 27px;
+    background-color:green;
+
+}
+.textoBebidas{
+    margin-left: 19px;
+    font-family: 'Righteous',cursive;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    text-align: left;
+}
+.bebidas{
+    margin-top: 17px;
+    display: flex;
+    overflow-x: auto;
+}
+.bebidas::-webkit-scrollbar {
+    display: none;
+  }
+  .bebida1{
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding-left:14px ;
+    padding-top:18px;
+    padding-right: 14px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .bebida2{
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding-left:14px ;
+    padding-top:18px;
+    padding-right: 14px;
+    margin-right: 16px;
+  }
+  .bebida3{
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding-left:14px ;
+    padding-top:18px;
+    padding-right: 14px;
+    margin-right: 16px;
+  }
+  .descricaoBebida{
+    height: 23px;
+    width: 139px;
+    margin-top: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+  }
+  .subdescricaoBebida{
+    width: 147px;
+    height: 18px;
+    margin-top: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+  }
+  .precoBebida{
+    width: 66px;
+    height: 19px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
