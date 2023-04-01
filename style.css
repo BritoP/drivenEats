@@ -45,13 +45,14 @@
     
 }
 .footer{
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 92px;
     width: 414px;
-    left: 0px;
-    top: 934px;
     border-radius: 0px;
     background-color:#FFFFFF;
 }
@@ -75,7 +76,6 @@
 }
 .caixa1{
     margin-top: 123px;
-    background-color: #ffff00;
 }
 .texto1{
     margin-left: 19px;
@@ -165,8 +165,6 @@
 }
 .caixa2{
     margin-top: 27px;
-    background-color:green;
-
 }
 .textoBebidas{
     margin-left: 19px;
@@ -256,7 +254,6 @@
 
   .caixa3{
     margin-top: 27px;
-    background-color:green;
 
 }
 .textoSobremesas{
@@ -272,6 +269,7 @@
     margin-top: 17px;
     display: flex;
     overflow-x: auto;
+    margin-bottom:108px ;
 }
 .sobremesas::-webkit-scrollbar {
     display: none;
