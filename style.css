@@ -90,7 +90,7 @@
 .pratos{
     margin-top: 17px;
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .pratos::-webkit-scrollbar {
     display: none;
@@ -178,7 +178,7 @@
 .bebidas{
     margin-top: 17px;
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .bebidas::-webkit-scrollbar {
     display: none;
@@ -268,7 +268,7 @@
 .sobremesas{
     margin-top: 17px;
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     margin-bottom:108px ;
 }
 .sobremesas::-webkit-scrollbar {
