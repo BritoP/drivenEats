@@ -29,9 +29,9 @@
                 Primeiro, seu prato
             </div>
             <div class="pratos">
-              <div data-test ="dish" class="prato1"onclick="SelecionarPrato1(this)">
+              <div data-test ="dish" class="prato1" onclick="SelecionarPrato1(this)">
                 <img src="frango_yin_yang.png" alt="">
-                <div class="descricaoPrato">Frango Grande </div>
+                <div data-test="item-name" class="descricaoPrato">Frango Grande </div>
                 <div class="subdescricaoPrato">Um pouco de batata,<br>um pouco de salada</div>
                 <div class="caixa">
                 <div data-test="item-price" class="precoPrato">R$ 14,90</div>
@@ -40,7 +40,7 @@
               </div>
               <div data-test ="dish" class="prato2"onclick="SelecionarPrato2(this)">
                 <img src="frango_yin_yang.png" alt="">
-                <div class="descricaoPrato">Frango Médio</div>
+                <div data-test="item-name" class="descricaoPrato">Frango Médio</div>
                 <div class="subdescricaoPrato">Um pouco de batata,<br>um pouco de salada</div>
                 <div class="caixa">
                 <div data-test="item-price" class="precoPrato">R$ 11,90</div>
@@ -49,7 +49,7 @@
               </div>
               <div data-test ="dish" class="prato3"onclick="SelecionarPrato3(this)">
                 <img src="frango_yin_yang.png" alt="">
-                <div class="descricaoPrato">Frango Pequeno</div>
+                <div data-test="item-name" class="descricaoPrato">Frango Pequeno</div>
                 <div class="subdescricaoPrato">Um pouco de batata,<br>um pouco de salada</div>
                 <div class="caixa">
                 <div data-test="item-price" class="precoPrato">R$ 8,90</div>
@@ -62,10 +62,10 @@
           <div class="textoBebidas">
               Agora, sua bebida
           </div>
-          <div data-test ="drink" class="bebidas">
-            <div class="bebida1"onclick="SelecionarBebida1(this)">
+          <div class="bebidas">
+            <div data-test ="drink" class="bebida1"onclick="SelecionarBebida1(this)">
               <img src="coca-cola.png" alt="">
-              <div class="descricaoBebida">Coquinha gelada</div>
+              <div data-test="item-name" class="descricaoBebida">Coquinha gelada</div>
               <div class="subdescricaoBebida">Garrafa, 600ml</div>
               <div class="caixa">
               <div data-test="item-price" class="precoBebida">R$ 7,90</div>
@@ -74,7 +74,7 @@
             </div>
             <div data-test ="drink" class="bebida2"onclick="SelecionarBebida2(this)">
               <img src="coca-cola.png" alt="">
-              <div class="descricaoBebida">Coquinha gelada</div>
+              <div data-test="item-name" class="descricaoBebida">Coquinha gelada</div>
               <div class="subdescricaoBebida">Lata, 350ml</div>
               <div class="caixa">
               <div data-test="item-price" class="precoBebida">R$ 4,90</div>
@@ -83,7 +83,7 @@
             </div>
             <div data-test ="drink" class="bebida3"onclick="SelecionarBebida3(this)">
               <img src="coca-cola.png" alt="">
-              <div class="descricaoBebida">Coquinha gelada</div>
+              <div data-test="item-name" class="descricaoBebida">Coquinha gelada</div>
               <div class="subdescricaoBebida">Garrafa, 200ml</div>
               <div class="caixa">
               <div data-test="item-price" class="precoBebida">R$ 1,90</div>
@@ -99,7 +99,7 @@
           <div class="sobremesas">
             <div data-test ="dessert"  class="sobremesa1"onclick="SelecionarSobremesa1(this)">
               <img src="pudim.png" alt="">
-              <div class="descricaoSobremesa">Pudim Grande</div>
+              <div data-test="item-name" class="descricaoSobremesa">Pudim Grande</div>
               <div class="subdescricaoSobremesa">Apenas pudim</div>
               <div class="caixa">
               <div data-test="item-price" class="precoSobremesa">R$ 7,90</div>
@@ -108,7 +108,7 @@
             </div>
             <div data-test ="dessert" class="sobremesa2"onclick="SelecionarSobremesa2(this)">
               <img src="pudim.png" alt="">
-              <div class="descricaoSobremesa">Pudim Médio</div>
+              <div data-test="item-name" class="descricaoSobremesa">Pudim Médio</div>
               <div class="subdescricaoSobremesa">Apenas pudim</div>
               <div class="caixa">
               <div data-test="item-price" class="precoSobremesa">R$ 5,90</div>
@@ -117,7 +117,7 @@
             </div>
             <div data-test ="dessert" class="sobremesa3"onclick="SelecionarSobremesa3(this)">
               <img src="pudim.png" alt="">
-              <div class="descricaoSobremesa">Pudim Pequeno</div>
+              <div data-test="item-name" class="descricaoSobremesa">Pudim Pequeno</div>
               <div class="subdescricaoSobremesa">Apenas pudim</div>
               <div class="caixa">
               <div data-test="item-price" class="precoSobremesa">R$ 3,90</div>
@@ -128,7 +128,7 @@
       </div>
         <div class="footer">
           <button data-test="order-btn" class="fecharPedido" disabled onclick="fecharPedido()">
-            Selecionar os 3 itens <br>
+            Selecione os 3 itens <br>
             para fechar o pedido
           </button>
         </div>
