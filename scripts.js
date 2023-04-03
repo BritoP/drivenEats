@@ -122,7 +122,7 @@ function checkSelecao(){
     const checkSobremesa = document.querySelector(".sobremesas .selecionado");
     const footerTexto = document.querySelector(".fecharPedido")
     if(checkPratos !== null && checkBebidas !== null && checkSobremesa !== null){
-        document.querySelector(".footer").disabled = false;
+        document.querySelector(".fecharPedido").disabled = false;
         footerTexto.innerHTML = "Fechar Pedido";
         footerTexto.classList.add("fecharPedidoNovo");
     }
@@ -155,7 +155,7 @@ function fecharPedido(){
     console.log(soma);
 
     zapZap = "https://wa.me/5514991965291?text=" + encodeURIComponent(
-        `Olá, gostaria de fazer o pedido:\n Prato: ${nomePrato}\nBebida: ${nomeBebida}\nSobremesa: ${nomeSobremesa}\nTotal: R$ ${soma}`
+        `Olá, gostaria de fazer o pedido:\nPrato: ${nomePrato}\nBebida: ${nomeBebida}\nSobremesa: ${nomeSobremesa}\nTotal: R$ ${soma}`
     );
     console.log(zapZap);
     window.open(zapZap);
