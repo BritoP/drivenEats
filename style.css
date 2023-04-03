@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+button {
+  all: unset;
+}
 .site{
     display: flex;
     flex-direction: column;
@@ -45,16 +48,15 @@
     
 }
 .footer{
-    position:fixed;
-    left: 0px;
-    bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 92px;
-    width: 414px;
-    border-radius: 0px;
-    background-color:#FFFFFF;
+  position:fixed;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92px;
+  width: 414px;
+  background-color:#FFFFFF;
 }
 .fecharPedido{
     display: flex;
@@ -319,7 +321,6 @@
     color: #000000;
   }
 
-
   .caixa3{
     margin-top: 27px;
 
@@ -421,3 +422,33 @@
   .on{
     visibility: visible;
   }
+  .fecharPedidoNovo{
+    width: 364px;
+    height: 61px;
+    background: #32B72F;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.018em;
+    
+    color: #FFFFFF;
+    
+  }
+  .footerAtt{
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    width: 414px;
+    background-color:#FFFFFF;
+  }
+  
